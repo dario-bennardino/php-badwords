@@ -1,6 +1,6 @@
 <?php
-$paragrafo = $_GET['paragrafo'];
-$parola = $_GET['parola'];
+$paragrafo = $_POST['paragrafo'];
+$parola = $_POST['parola'];
 
 ?>
 <!DOCTYPE html>
