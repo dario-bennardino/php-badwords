@@ -1,6 +1,6 @@
 <?php
-$nome = $_GET['paragrafo'];
-$nome = $_GET['parola'];
+$paragrafo = $_GET['paragrafo'];
+$parola = $_GET['parola'];
 
 ?>
 <!DOCTYPE html>
@@ -16,9 +16,9 @@ $nome = $_GET['parola'];
 
 <body>
     <div class="container my-5">
-        <p>Paragrafo: <php echo $paragrafo ?>
+        <p>Paragrafo: <?php echo $paragrafo ?>
         </p>
-        <h4>Parola da censurare: <php echo $parola ?>
+        <h4>Parola da censurare: <?php echo $parola ?>
         </h4>
     </div>
 </body>
