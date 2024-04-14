@@ -16,6 +16,7 @@
 <body>
     <div class="container my-5">
         <h1>Esercizio PHP</h1>
+        <a href="form-post.html">vai al form</a>
     </div>
 </body>
 
