@@ -2,6 +2,7 @@
 $paragrafo = $_POST['paragrafo'];
 $parola = $_POST['parola'];
 $paragrafoCensurato = str_replace($parola, '***', $paragrafo);
+$lunghezzaParagrafoCensurato = strlen($paragrafoCensurato);
 
 ?>
 <!DOCTYPE html>
@@ -22,6 +23,7 @@ $paragrafoCensurato = str_replace($parola, '***', $paragrafo);
         <h4>Parola da censurare: <?php echo $parola ?>
         </h4>
         <h3><?php echo $paragrafoCensurato ?> </h3>
+        <h3>Il mio paragrafo censurato è lungo: <?php echo $lunghezzaParagrafoCensurato ?> </h3>
     </div>
 </body>
 
